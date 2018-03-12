@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_greske"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="hr.etfos.mlucic.testzaband.Activities.Activities.Greske.Greske">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#23433234"
+        android:id="@+id/id_unos_greske">
+        <ImageView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:src="@drawable/input_error"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UNOS GREŠAKA"
+            android:textColor="#000000"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#23433234"
+        android:layout_marginTop="22dp"
+        android:id="@+id/id_ispis_gresaka">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:src="@drawable/errormessage"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISPIS GREŠAKA"
+            android:textColor="#000000"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
